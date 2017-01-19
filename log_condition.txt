@@ -1,4 +1,4 @@
-##use git ##
+#use git#
 >sudo apt install git -y
 >echo "#Python_develop_test" >> README.md
 >git init
@@ -6,6 +6,10 @@
 >git config --global user.email "futianqi451@outlook.com"
 >git commit -m "first commit"
 >git remote add origin https://github.com/TianqiFu/Python_develop_test.git
+>git push -u origin master
+##Add another file.##
+>git add log_codition.txt
+>git commit -m "first commit"
 >git push -u origin master
 
 ubuntu should use "sudo" is a commend as root user to do something.
